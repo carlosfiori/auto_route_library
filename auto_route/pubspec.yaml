@@ -17,11 +17,12 @@ dependencies:
 
 dev_dependencies:
   build_runner:
-  auto_route_generator: ^5.0.0
+  auto_route_generator:
+    git:
+      url: git@github.com:carlosfiori/auto_route_library.git
+      ref: master-git
+      path: auto_route
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.4
 
-dependency_overrides:
-  auto_route_generator:
-    path: ../auto_route_generator

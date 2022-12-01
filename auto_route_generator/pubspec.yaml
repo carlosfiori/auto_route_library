@@ -16,7 +16,11 @@ dependencies:
   dart_style: ^2.2.0
   xml: ^6.0.1
   args: ^2.3.1
-  auto_route: ^5.0.2
+  auto_route:
+    git:
+      url: git@github.com:carlosfiori/auto_route_library.git
+      ref: master-git
+      path: auto_route_generator
 
 
 dev_dependencies:
