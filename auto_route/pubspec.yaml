@@ -20,8 +20,8 @@ dev_dependencies:
   auto_route_generator:
     git:
       url: git@github.com:carlosfiori/auto_route_library.git
-      ref: master-git
-      path: auto_route
+      ref: master-git-v2
+      path: auto_route_generator
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.4
